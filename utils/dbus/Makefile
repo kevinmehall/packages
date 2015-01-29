@@ -18,6 +18,7 @@ PKG_MD5SUM:=5c64a166c72c50765d9c9cfbc696fac9
 PKG_MAINTAINER:=Steven Barth <cyrus@openwrt.org>
 PKG_LICENSE:=AFL-2.1
 
+PKG_BUILD_PARALLEL:=1
 PKG_FIXUP:=autoreconf
 PKG_INSTALL:=1
 
